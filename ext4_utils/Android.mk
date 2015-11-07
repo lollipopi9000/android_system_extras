@@ -1,4 +1,4 @@
-# Copyright 2010 The Android Open Source Project
+\# Copyright 2010 The Android Open Source Project
 
 LOCAL_PATH:= $(call my-dir)
 
@@ -51,7 +51,7 @@ include $(BUILD_HOST_EXECUTABLE)
 
 include $(CLEAR_VARS)
 LOCAL_PACK_MODULE_RELOCATIONS := false
-LOCAL_SRC_FILES := make_ext4fs_main.c
+LOCAL_SRC_FILES := make_ext4fs_main.c canned_fs_config.c
 LOCAL_MODULE := utility_make_ext4fs
 LOCAL_MODULE_STEM := make_ext4fs
 LOCAL_MODULE_TAGS := optional
