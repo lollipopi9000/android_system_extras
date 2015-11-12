@@ -57,6 +57,7 @@ LOCAL_CFLAGS_linux := -DHOST
 include $(BUILD_HOST_EXECUTABLE)
 
 include $(CLEAR_VARS)
+LOCAL_PACK_MODULE_RELOCATIONS := false
 LOCAL_SRC_FILES := make_ext4fs_main.c
 LOCAL_MODULE := utility_make_ext4fs
 LOCAL_MODULE_STEM := make_ext4fs
